@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CordChat Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app">
+
+        <aside class="servers">
+            <div class="logo">C</div>
+            <div class="server active"></div>
+            <div class="server"></div>
+            <div class="server"></div>
+        </aside>
+
+        <aside class="channels">
+            <h2>CordChat</h2>
+
+            <div class="section">TEXT CHANNELS</div>
+            <div class="channel active"># general</div>
+            <div class="channel"># coding</div>
+            <div class="channel"># ai</div>
+
+            <div class="section">DIRECT MESSAGES</div>
+            <div class="channel">Dipayan</div>
+            <div class="channel">Alex</div>
+        </aside>
+
+        <main class="chat">
+            <div class="chat-header">
+                # general
+            </div>
+
+            <div id="messages" class="messages">
+                <div class="msg">
+                    <span class="name">System</span>
+                    <span class="text">Welcome to CordChat Pro</span>
+                </div>
+            </div>
+
+            <div class="input-bar">
+                <input id="msgInput" type="text" placeholder="Message #general">
+                <button id="sendBtn">Send</button>
+            </div>
+        </main>
+
+        <aside class="users">
+            <h3>ONLINE</h3>
+            <div class="user">🟢 Dipayan</div>
+            <div class="user">🟢 Alex</div>
+            <div class="user">🤖 AI Bot</div>
+        </aside>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
